@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load model
-with open("logreg_rfe_model.pkl", "rb") as f:
+with open("logreg_model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # Feature names as used in training
